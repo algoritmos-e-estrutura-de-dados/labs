@@ -18,4 +18,7 @@ package src;
  */
 public class Exercicio02 {
     
+    public int solve(double x, double y){
+        return 0;
+    }
 }

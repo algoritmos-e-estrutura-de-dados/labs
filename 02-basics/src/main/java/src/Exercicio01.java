@@ -16,7 +16,12 @@ package src;
  * Baseado em: https://www.urionlinejudge.com.br/judge/pt/problems/view/1001
  */
 public class Exercicio01 {
+
     public int solve(int a, int b){
-        return 0;
+        int A = a;
+        int B = b;
+        int X = A + B;
+        return X;
     }
+
 }

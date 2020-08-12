@@ -9,6 +9,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Exercicio01 ex = new Exercicio01();
+        // int resp = ex.solve(1, 1);
+        System.out.println(ex);
     }
 }

@@ -27,7 +27,7 @@ public class AppTest {
         res = classUnderTest.solve(10,9);
         assertEquals(19, res);
         res = classUnderTest.solve(-10,4);
-        assertEquals(6, res);
+        assertEquals(-6, res);
         res = classUnderTest.solve(10,-10);
         assertEquals(0, res);
     }
@@ -35,7 +35,7 @@ public class AppTest {
     @Test
     public void testExercicio02HasSolve() {
         Exercicio02 exercicio = new Exercicio02();
-        assertNotNull("Classe Exercicio02 deveria ter método solve()", exercicio.solve(1,1));
+        assertNotNull("Classe Exercicio02 deveria ter método solve()", exercicio.solve(1.0,1.0));
     }
 
     @Test
