@@ -1,0 +1,29 @@
+Compiled from "Cedulas.java"
+public class Cedulas {
+  public Cedulas();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: aload_0
+       1: arraylength
+       2: ifle          26
+       5: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       8: aload_0
+       9: iconst_0
+      10: aaload
+      11: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      14: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      17: aload_0
+      18: iconst_1
+      19: aaload
+      20: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      23: goto          34
+      26: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      29: ldc           #4                  // String O programa precisa de 2 argumentos!
+      31: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      34: return
+}
