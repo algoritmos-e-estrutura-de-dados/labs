@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
   <component name="GradleMigrationSettings" migrationVersion="1" />
-=======
->>>>>>> fb174a5cf4ba8fa5a41cd59fa87eb000daeaf858
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-        <option name="gradleHome" value="$USER_HOME$/development/java/gradle-6.4" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-=======
->>>>>>> fb174a5cf4ba8fa5a41cd59fa87eb000daeaf858
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/01-test-gradle" />
-            <option value="$PROJECT_DIR$/02-basics" />
           </set>
         </option>
       </GradleProjectSettings>

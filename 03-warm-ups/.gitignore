@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 *.class
+=======
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+>>>>>>> fb174a5cf4ba8fa5a41cd59fa87eb000daeaf858

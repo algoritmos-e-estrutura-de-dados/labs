@@ -41,7 +41,7 @@ public class AppTest {
     @Test
     public void testExercicio02Solve() {
         Exercicio02 exercicio = new Exercicio02();
-        int res = exercicio.solve(5.0, 7.1);
+        double res = exercicio.solve(5.0, 7.1);
         assertEquals("O resultado deveria ser 6.43182", 6.43182, res, 0.001);
         res = exercicio.solve(0.0, 7.1);
         assertEquals("O resultado deveria ser 4.84091", 4.84091, res, 0.001);

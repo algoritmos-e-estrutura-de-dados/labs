@@ -17,8 +17,8 @@ package src;
  * Baseado em: https://www.urionlinejudge.com.br/judge/pt/problems/view/1005
  */
 public class Exercicio02 {
-    
-    public int solve(double x, double y){
-        return 0;
+
+    public double solve(double x, double y){
+        return 0.0;
     }
 }
